@@ -111,7 +111,7 @@ footer .social a i:hover{
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-        padding: 10%;
+        padding: 10px 10%;
         align-items: center;
     }
 
@@ -138,6 +138,7 @@ footer .social a i:hover{
 
    footer .social{
         justify-content: center;
+        padding: 30px;
         margin-right: 0px;
     }
 
