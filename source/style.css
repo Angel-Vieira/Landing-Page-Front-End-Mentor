@@ -1,0 +1,148 @@
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    background: url(./img/bg-desktop.svg) ;
+    background-color: hsl(257, 40%, 49%);
+  
+    
+}
+
+.logo{
+    padding: 30px 40px;
+}
+
+
+.contend{
+   display: flex;
+   padding-left: 40px;
+   
+  
+}
+
+.contend img{
+    max-height: 425px;
+    
+}
+
+.contend-text{
+    max-width: 500px;
+    padding: 20px 48px;
+    color: #fff;
+    font-size: 14.5px;
+    font-weight: 400;
+}
+
+.contend .contend-text h2{
+    font-size: 33px;
+    margin-top: 18px;
+    font-weight: 600;
+
+}
+
+.contend .contend-text p{
+   padding-block: 10px;
+   margin-bottom: 18px;
+
+}
+
+.contend .contend-text .register a{
+   padding: 12px 52px;
+   background-color: #fff;
+   color:  hsl(257, 40%, 49%);
+   box-shadow: 0px 4px 8px  rgba(0, 0, 0,3);
+   border-radius: 50px;
+   
+}
+
+.register{
+    margin: 20px;
+}
+
+.contend .contend-text .register a:hover{
+    background-color: hsl(300, 69%, 71%) ;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+ }
+
+
+
+footer .social{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 25px;
+    right: 25px;
+    
+}
+
+
+footer .social a i{
+color: #fff;
+margin: 0px  10px;
+border: 1px solid #fff;
+padding: 8px;
+border-radius: 100px;
+width: 35px;
+text-align: center;
+}
+
+footer .social a i:hover{
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+    transition: 0.2s ease-in-out;
+
+}
+
+
+
+@media(max-width:970px){
+
+    body{
+        background: url(./img/bg-mobile.svg);
+        background-color: hsl(257, 40%, 49%) ;
+        background-size: cover;
+        /* height: auto; */
+    }
+
+    .logo img{
+        max-width: 200px;
+    }
+    
+    .contend{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 10%;
+        align-items: center;
+    }
+
+    .contend .contend-text{
+        text-align: center;
+        padding: 0px;
+     
+    }
+
+    .contend .contend-text h2{
+        font-size: 18px ;
+    }
+
+    .contend img{
+        max-width: 100%;
+        min-width: 200px;
+        
+    }
+    footer{
+        justify-content: center;
+        right: 0px;
+        margin-right: 0px;
+    }
+
+   footer .social{
+        right: 0px;
+    }
+
+   
+}
